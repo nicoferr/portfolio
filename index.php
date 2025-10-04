@@ -13,14 +13,14 @@
   <section class="brief">
       <h1>Portfolio</h1>
       <p>
-        Diplômé d'une licence professionnelle de l'IUT de Metz en 2012, ma carrière professionnelle a été en dent de scie : difficulté à trouver une entreprise qui acceptait
-        les jeunes sans expérience, ou qui acceptait de les accompagner dans le monde du travail. Des soucis de santé ne m'ont pas aidé à trouver une situation stable.
+        Diplômé d'une <strong>licence professionnelle</strong> de l'IUT de Metz en 2012, ma carrière professionnelle a été en dents de scie : difficulté à trouver une entreprise qui acceptait
+        les jeunes <strong>sans expérience</strong>, ou qui acceptait de les accompagner dans le monde du travail. Des soucis de santé ne m'ont pas aidé à trouver une situation stable.
       </p>
       <p>
         J'ai utilisé mon temps libre pour découvrir différentes technologies de développement et effectuer de petits projets. Sur ce site, vous trouverez mes derniers projets en date.
       </p>
       <p>
-        Je souhaite me spécialiser dans l'une de ces technologies, et suis très motivé pour en apprendre plus au niveau professionnel.
+        Je souhaite me <strong>spécialiser</strong> dans l'une de ces technologies, et suis très motivé pour en <strong>apprendre plus au niveau professionnel</strong>.
       </p>
   </section>
 

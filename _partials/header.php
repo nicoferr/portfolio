@@ -12,5 +12,6 @@
         <nav>
             <a href="index.php" <?= $active == "portfolio" ? "class='active'" :  "" ?> >Portofolio</a>
             <a href="cv.php" <?= $active == "cv" ? "class='active'" :  "" ?>>Mon CV</a>
+            <a href="diplomes.php" <?= $active == "diplomes" ? "class='active'" :  "" ?>>Mes diplômes</a>
         </nav>
     </header>

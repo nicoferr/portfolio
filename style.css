@@ -38,13 +38,13 @@ header {
 nav {
   flex: 1;
   display: flex;
+  gap: 2rem;
   align-items: center;
   justify-content: center;
 }
 
 nav a {
   color: var(--text);
-  margin-left: 22px;
   text-decoration: none;
   font-weight: 600;
   padding: 6px 0;
@@ -101,7 +101,7 @@ nav a:hover, .active { border-color: var(--accent); }
   transition: transform 0.25s, box-shadow 0.25s;
 }
 
-.card:hover {
+.card:hover, .diplomes img:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 28px rgba(0,0,0,0.08);
 }
@@ -150,14 +150,69 @@ nav a:hover, .active { border-color: var(--accent); }
 }
 .link.code:hover { background: var(--accent); color: #fff; }
 
+#cv-container {
+  display: flex;
+  justify-content: center;
+}
+
+#cv {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.diplomes {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.diplomes a {
+  text-decoration: none;
+}
+
+.diplomes img {
+  max-height: 300px;
+}
+
 
 #footer {
   position: fixed;
   bottom: 0;
+  left: 0;
   width: 100%;
   display: flex;
   justify-content: center;
   color: var(--muted);
   font-size: 14px;
   padding: 1rem 0;
+}
+
+@media screen and (width < 800px) {
+  header {
+    padding-top: 0.5rem;
+    flex-direction: column;
+  }
+
+  header nav {
+    margin-top: 2rem;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .brief {
+    padding: 0.5rem;
+  }
+
+  .cards {
+    justify-content: center;
+    margin: 0;
+  }
+
+  .diplomes {
+    margin-bottom: 5rem;
+  }
 }

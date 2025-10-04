@@ -8,13 +8,12 @@
   
   <section class="brief">
     <h1>Mon CV</h1>
-    <!-- <p>Un style moderne et équilibré, à la fois clair et avec un peu plus de personnalité.</p> -->
   </section>
 
-    <main class="main">
-      <div id="pdf-container">
-        <embed src="cv.pdf" type="application/pdf" width="100%" height="600px" />
-      </div>
+    <main id="cv-container">
+      <a href="cv.jpg">
+        <img id="cv" src="CV.jpg" alt="Mon CV" title="Mon CV"/>
+      </a>
     </main>
     
   <?php include_once('./_partials/footer.php') ?>

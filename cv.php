@@ -11,7 +11,7 @@
   </section>
 
     <main id="cv-container">
-      <a href="cv.jpg">
+      <a href="CV.jpg">
         <img id="cv" src="CV.jpg" alt="Mon CV" title="Mon CV"/>
       </a>
     </main>

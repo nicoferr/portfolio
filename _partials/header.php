@@ -10,7 +10,7 @@
     <header>
         <div class="logo">Nicolas Ferrari - Développeur web</div>
         <nav>
-            <a href="index.php" <?= $active == "portfolio" ? "class='active'" :  "" ?> >Portofolio</a>
+            <a href="index.php" <?= $active == "portfolio" ? "class='active'" :  "" ?> >Portfolio</a>
             <a href="cv.php" <?= $active == "cv" ? "class='active'" :  "" ?>>Mon CV</a>
             <a href="diplomes.php" <?= $active == "diplomes" ? "class='active'" :  "" ?>>Mes diplômes</a>
         </nav>

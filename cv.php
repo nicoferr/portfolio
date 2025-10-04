@@ -6,7 +6,7 @@
 
 ?>
   
-  <section class="hero">
+  <section class="brief">
     <h1>Mon CV</h1>
     <!-- <p>Un style moderne et équilibré, à la fois clair et avec un peu plus de personnalité.</p> -->
   </section>

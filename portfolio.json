@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Portfolio",
+        "url": "https://www.nicolasferrari.dev",
+        "github": "https://github.com/nicoferr/portfolio",
+        "description": "Vous êtes dessus actuellement !",
+        "image": {
+            "path": "screenshots/portfolio.png",
+            "alt": "Portfolio",
+            "title": "Portfolio"
+        },
+        "tags": [
+            "HTML", "CSS", "PHP 8"
+        ]
+    },{
+        "name": "LyricsNest",
+        "url": "https://lyricsnest.net",
+        "github": "https://github.com/nicoferr/lyricsnest",
+        "description": "Site de sauvegarde de paroles, avec génération par IA possible.",
+        "image": {
+            "path": "screenshots/lyricsnest.png",
+            "alt": "LyricsNest",
+            "title": "LyricsNest"
+        },
+        "tags": [
+            "Django", "IA", "Tailwind", "Responsive"
+        ]
+    },{
+        "name": "Shifumi",
+        "url": "https://shifumi-rpc.com",
+        "github": "https://github.com/nicoferr/shifumi",
+        "description": "Jeu du shifumi en solo contre l'ordinateur ou 1 contre 1 avec un ami, deux règles possibles.",
+        "image": {
+            "path": "screenshots/shifumi.png",
+            "alt": "SHIFUMI-RPC",
+            "title": "SHIFUMI-RPC"
+        },
+        "tags": [
+            "ReactJS", "NodeJS", "Socket.io", "Tailwind", "Responsive"
+        ]
+    },{
+        "name": "Un clin d'oeil pour Chiara",
+        "url": "https://unclindoeilpourchiara.fr",
+        "description": "Sensibilisation au rétinoblastome.",
+        "image": {
+            "path": "screenshots/unclindoeilpourchiara.png",
+            "alt": "Un clin d'oeil pour Chiara",
+            "title": "Un clin d'oeil pour Chiara"
+        },
+        "tags": [
+            "PHP", "Symfony 7", "EasyAdmin", "Responsive"
+        ]
+    }
+]

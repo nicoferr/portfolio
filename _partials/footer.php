@@ -1,5 +1,5 @@
         <footer id="footer">
-            © 2025 — Votre Nom. Portfolio HTML + CSS.
+            © <?= date('Y') ?> — Nicolas Ferrari. Portfolio HTML + CSS + PHP.
         </footer>
     </body>
 </html>

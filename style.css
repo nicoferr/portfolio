@@ -212,7 +212,7 @@ nav a:hover, .active { border-color: var(--accent); }
     margin: 0;
   }
 
-  .diplomes {
+  .diplomes, .cards, #cv-container {
     margin-bottom: 5rem;
   }
 }

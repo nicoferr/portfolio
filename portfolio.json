@@ -23,7 +23,7 @@
             "title": "LyricsNest"
         },
         "tags": [
-            "Django", "IA", "Tailwind", "Responsive"
+            "Django", "IA", "Tailwind", "Responsive", "Docker"
         ]
     },{
         "name": "Shifumi",
@@ -36,7 +36,7 @@
             "title": "SHIFUMI-RPC"
         },
         "tags": [
-            "ReactJS", "NodeJS", "Socket.io", "Tailwind", "Responsive"
+            "ReactJS", "NodeJS", "Socket.io", "Tailwind", "Responsive", "Docker"
         ]
     },{
         "name": "Un clin d'oeil pour Chiara",

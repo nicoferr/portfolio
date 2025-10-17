@@ -1,0 +1,39 @@
+.tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: #eef1f7;
+  color: var(--muted);
+}
+
+.actions { display: flex; gap: 10px; }
+
+.link {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.link.demo {
+  background: var(--accent);
+  color: #fff;
+}
+.link.demo:hover { background: var(--accent2); }
+
+.link.code {
+  background: #f9fafc;
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+.link.code:hover { background: var(--accent); color: #fff; }

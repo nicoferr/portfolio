@@ -1,0 +1,153 @@
+{
+    "title": "Développeur Web (junior)",
+    "catchphrase": "Diplômé <strong>BAC+3</strong> en Développement web. Après des <strong>expériences variées</strong> en développement web, je recherche un <strong>emploi</strong> qui me permettra d’<strong>appliquer</strong> et de <strong>renforcer</strong> mes connaissances.",
+    "experiences": [
+        {
+            "title": "Formation concepteur développeur d'application",
+            "location": "Metz Numeric School",
+            "duration": "Avril à Octobre 2025",
+            "missions": [
+                "Apprentissage <strong>Python</strong>, <strong>ReactJS</strong>",
+                "Développement d'applications",
+                "Intégration IA"
+            ]
+        },
+        {
+            "title": "Développeur PHP Symfony",
+            "location": "AxioCode",
+            "duration": "Avril à Juin 2024",
+            "missions": [
+                "Correction de bugs",
+                "Développement de fonctionnalités"
+            ]
+        },
+        {
+            "title": "Développeur Web",
+            "location": "Metz Numeric School",
+            "duration": "Mars à Septembre 2023",
+            "missions": [
+                "Veille technologique: <strong>WebRTC</strong>,<strong>NodeJS</strong>",
+                "Développement d'une application de streaming multi-plateforme",
+                "Correction de bugs"
+            ]
+        },
+        {
+            "title": "Développeur fullstack PHP/MySQL",
+            "location": "Pharmanity (télétravail complet)",
+            "duration": "Octobre à Novembre 2021",
+            "missions": [
+                "Refonte d'un site Wordpress avec <strong>PHP</strong>/<strong>Symfony</strong>"
+            ]
+        },
+        {
+            "title": "Développeur informatique",
+            "location": "SIGMA-IP",
+            "duration": "Décembre 2020 à Juin 2021",
+            "missions": [
+                "Maintenance d'application, <strong>PHP</strong>,<strong>Javascript</strong>",
+                "Développement de modules internes de gestion de badges et utilisateurs"
+            ]
+        },
+        {
+            "title": "Consultant technique",
+            "location": "Jiway",
+            "duration": "Mai 2015 à Décembre 2018",
+            "missions": [
+                "Maintenance d'application, <strong>JAVA 7</strong>,<strong>Spring</strong>,<strong>ExtJS</strong>",
+                "Développement de modules pour un CRM bancaire",
+                "Déploiement du produit en ligne et chez les clients"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "year": "2012",
+            "level": "BAC +3",
+            "title": "Licence Professionnelle Systèmes Informatiques et Logiciels - Option métiers du Web et du Commerce Électronique",
+            "location": "IUT de Metz" 
+        },
+        {
+            "year": "2011",
+            "level": "BAC +2",
+            "title": "DUT Option Informatique",
+            "location": "IUT de Metz" 
+        },
+        {
+            "year": "2011",
+            "level": "BAC",
+            "title": "Sciences de l’Ingénieur",
+            "location": "Lycée Henri Nominé, Sarreguemines" 
+        }
+    ],
+    "skills": [
+        {
+            "name": "HTML5",
+            "level": 8
+        },
+        {
+            "name": "CSS3",
+            "level": 7
+        },
+        {
+            "name": "PHP",
+            "level": 6
+        },
+        {
+            "name": "Symfony",
+            "level": 6
+        },
+        {
+            "name": "SQL Server",
+            "level": 6
+        },
+        {
+            "name": "ReactJS/Vite",
+            "level": 5
+        },
+        {
+            "name": "NodeJS",
+            "level": 5
+        },
+        {
+            "name": "Docker",
+            "level": 5
+        },
+        {
+            "name": "Python",
+            "level": 4
+        },
+        {
+            "name": "Django",
+            "level": 4
+        },
+        {
+            "name": "Flask",
+            "level": 4
+        },
+        {
+            "name": "Java",
+            "level": 4
+        },
+        {
+            "name": "NestJS",
+            "level": 4
+        },
+        {
+            "name": "MongoDB",
+            "level": 3
+        }
+    ],
+    "languages": [
+        { "name": "Français", "level": "(Langue maternelle)"},
+        { "name": "Anglais", "level": "(B2)"}
+    ],
+    "soft_skills": [
+        "Travail en équipe", "Bienveillance", "Capacité à recevoir du feedback", "Persévérance"
+    ],
+    "hobbies": [
+        { "name": "Musique", "exemples": [ "guitare", "chant", "pop-punk", "metal" ] },
+        { "name": "Jeux vidéos", "exemples": [ "FPS", "MMORPG", "Aventure" ] },
+        { "name": "Films", "exemples": [ "SF", "Action", "Horreur" ] },
+        { "name": "Séries", "exemples": [ "SF", "Action", "Horreur", "Animé" ] }
+    ]
+}

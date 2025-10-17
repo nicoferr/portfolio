@@ -12,9 +12,17 @@
   padding: 0;
 }
 
+html, body {
+  min-height: 100%;
+}
+
 body, footer {
   background: linear-gradient(160deg, #f4f6fa 0%, #eef1f7 100%);
   color: var(--text);
+}
+
+i {
+  margin-right: 0.5rem;
 }
 
 .wrap {
@@ -27,6 +35,12 @@ header {
   align-items: center;
   margin-bottom: 40px;
   padding-top: 2rem;
+}
+
+.linkedin {
+  color: #0077B5;
+  text-decoration: none;
+  border: none;
 }
 
 .logo {
@@ -77,13 +91,25 @@ nav a:hover, .active { border-color: var(--accent); }
   margin-right: auto;
 }
 
-.cards {
+.flex {
   display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 2rem;
-  margin: 5rem;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 14px;
+  padding: 1rem 0;
 }
 
 .card {
@@ -101,6 +127,14 @@ nav a:hover, .active { border-color: var(--accent); }
   transition: transform 0.25s, box-shadow 0.25s;
 }
 
+.cards {
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 5rem;
+}
+
 .card:hover, .diplomes img:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 28px rgba(0,0,0,0.08);
@@ -110,84 +144,6 @@ nav a:hover, .active { border-color: var(--accent); }
 .card p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.4; }
 .card img { width: 100% }
 
-.tags {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-
-.tag {
-  font-size: 12px;
-  padding: 5px 10px;
-  border-radius: 999px;
-  background: #eef1f7;
-  color: var(--muted);
-}
-
-.actions { display: flex; gap: 10px; }
-
-.link {
-  flex: 1;
-  padding: 10px;
-  border-radius: 10px;
-  text-align: center;
-  font-weight: 600;
-  text-decoration: none;
-  font-size: 14px;
-  transition: background 0.3s, color 0.3s;
-}
-
-.link.demo {
-  background: var(--accent);
-  color: #fff;
-}
-.link.demo:hover { background: var(--accent2); }
-
-.link.code {
-  background: #f9fafc;
-  color: var(--text);
-  border: 1px solid var(--border);
-}
-.link.code:hover { background: var(--accent); color: #fff; }
-
-#cv-container {
-  display: flex;
-  justify-content: center;
-}
-
-#cv {
-  width: 100%;
-  max-width: 600px;
-  margin: auto;
-}
-
-.diplomes {
-  display: flex;
-  gap: 3rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.diplomes a {
-  text-decoration: none;
-}
-
-.diplomes img {
-  max-height: 300px;
-}
-
-
-#footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  color: var(--muted);
-  font-size: 14px;
-  padding: 1rem 0;
-}
 
 @media screen and (width < 800px) {
   header {
@@ -210,9 +166,6 @@ nav a:hover, .active { border-color: var(--accent); }
   .cards {
     justify-content: center;
     margin: 0;
-  }
-
-  .diplomes, .cards, #cv-container {
     margin-bottom: 5rem;
   }
 }

@@ -1,13 +1,14 @@
 <?php
   $active = 'diplomes';
   $title = 'Diplômes';
+  $style = 'diplomes';
 
   include_once('./_partials/header.php')
 
 ?>
 
     <section class="brief">
-        <h1>Mes diplômes</h1>
+        <h1><i class="fa-solid fa-graduation-cap"></i>Mes diplômes</h1>
     </section>
 
     <main class="diplomes">

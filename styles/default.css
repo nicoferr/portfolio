@@ -172,4 +172,8 @@ nav a:hover, .active { border-color: var(--accent); }
     margin: 0;
     margin-bottom: 5rem;
   }
+
+  .card { 
+    max-width: 100%;
+  }
 }

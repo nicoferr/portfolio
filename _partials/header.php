@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title><?= $title ?> — Nicolas Ferrari</title>
-  <link rel="stylesheet" href="styles/default.css" />
+  <link rel="stylesheet" href="styles/default.css?v=<?= time() ?>" />
   <?php if(isset($style) && !empty($style)) { ?>
-    <link rel="stylesheet" href="styles/<?= $style ?>.css" />
+    <link rel="stylesheet" href="styles/<?= $style ?>.css?v=<?= time() ?>" />
   <?php } ?>
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">

@@ -123,7 +123,7 @@ nav a:hover, .active { border-color: var(--accent); }
   flex-direction: column;
   justify-content: space-between;
   max-width: 25%;
-  min-width: 300px;
+  min-width: 200px;
   gap: 1rem;
   transition: transform 0.25s, box-shadow 0.25s;
 }

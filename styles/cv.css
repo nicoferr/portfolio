@@ -76,6 +76,8 @@
 
 .tabs {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     border-bottom: 2px solid var(--accent);
     cursor: pointer;
     margin: 3rem 0;

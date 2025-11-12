@@ -82,59 +82,59 @@
     "skills": [
         {
             "name": "HTML5",
-            "level": 8
+            "level": "Confirmé"
         },
         {
             "name": "CSS3",
-            "level": 7
+            "level": "Confirmé"
         },
         {
             "name": "PHP",
-            "level": 6
+            "level": "Intermédiaire"
         },
         {
             "name": "Symfony",
-            "level": 6
+            "level": "Intermédiaire"
         },
         {
             "name": "SQL Server",
-            "level": 6
+            "level": "Intermédiaire"
         },
         {
             "name": "ReactJS/Vite",
-            "level": 5
+            "level": "Intermédiaire"
         },
         {
             "name": "NodeJS",
-            "level": 5
+            "level": "Intermédiaire"
         },
         {
             "name": "Docker",
-            "level": 5
+            "level": "Débutant"
         },
         {
             "name": "Python",
-            "level": 4
+            "level": "Débutant"
         },
         {
             "name": "Django",
-            "level": 4
+            "level": "Débutant"
         },
         {
             "name": "Flask",
-            "level": 4
+            "level": "Débutant"
         },
         {
             "name": "Java",
-            "level": 4
+            "level": "Débutant"
         },
         {
             "name": "NestJS",
-            "level": 4
+            "level": "Débutant"
         },
         {
             "name": "MongoDB",
-            "level": 3
+            "level": "Débutant"
         }
     ],
     "languages": [

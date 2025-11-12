@@ -40,19 +40,9 @@
       <div class="flex skills">
         <?php
           foreach($cv["skills"] as $skill) {
-            $good = $skill["level"] >= 7;
-            $okay = $skill["level"] > 5;
-            $medium = $skill["level"] > 3;
-
-            $bg_color = $good ? "green" : ($okay ? "yellowgreen" : ($medium ? "orange" : "red"));
         ?>
             <div class="flex skill">
-              <div class="flex skill-name"><?= $skill["name"] ?></div>
-              <div class="skill-level">
-                <span class="flex skill-color" style="width: <?= $skill["level"] ?>0% ;background-color: <?= $bg_color ?>;" >
-                  <!-- <?= $skill["level"] ?>/10 -->
-                </span>
-              </div>
+              <?= $skill["name"]." (".$skill["level"].")" ?>
             </div>
         <?php
           }

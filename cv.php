@@ -41,7 +41,7 @@
         <?php
           foreach($cv["skills"] as $skill) {
         ?>
-            <div class="flex-column skill">
+            <div class="grid skill">
               - <?= $skill["name"]." (".$skill["level"].")" ?>
             </div>
         <?php

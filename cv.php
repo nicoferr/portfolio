@@ -37,11 +37,11 @@
           Compétences
     ---------------------------->
     <div id="skills" class="tab-content active">
-      <div class="flex skills">
+      <div class="grid grid-cols-4 gap-4">
         <?php
           foreach($cv["skills"] as $skill) {
         ?>
-            <div class="flex skill">
+            <div class="skill">
               <?= $skill["name"]." (".$skill["level"].")" ?>
             </div>
         <?php

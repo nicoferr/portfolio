@@ -1,0 +1,179 @@
+:root {
+  --bg: #f4f6fa;
+  --text: #1a1a1a;
+  --muted: #555;
+  --accent: #e63946;   /* rouge principal */
+  --accent2: #ff7f50; /* rouge-orangé secondaire */
+  --border: #e0e4ea;
+  --radius: 14px;
+  --gap: 28px;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body, footer {
+  background: linear-gradient(160deg, #f4f6fa 0%, #eef1f7 100%);
+  color: var(--text);
+}
+
+i {
+  margin-right: 0.5rem;
+}
+
+.wrap {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-top: 2rem;
+}
+
+.linkedin {
+  color: #0077B5;
+  text-decoration: none;
+  border: none;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+nav {
+  flex: 1;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 6px 0;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+nav a:hover, .active { border-color: var(--accent); }
+
+.brief {
+  text-align: justify;
+  margin-bottom: 60px;
+}
+
+.brief h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.brief p {
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 18px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 14px;
+  padding: 1rem 0;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 25%;
+  min-width: 200px;
+  gap: 1rem;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.cards {
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 5rem;
+}
+
+.card:hover, .diplomes img:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+}
+
+.card h3 { margin: 0; font-size: 20px; color: var(--accent); }
+.card p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.4; }
+.card img { width: 100% }
+
+
+@media screen and (width < 1000px) {
+  header {
+    padding-top: 0.5rem;
+    flex-direction: column;
+  }
+
+  header nav {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (width < 800px) {
+
+  .logo {
+    text-align: center;
+  }
+
+  .brief {
+    padding: 0.5rem;
+  }
+
+  .cards {
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 5rem;
+  }
+
+  .card { 
+    max-width: 100%;
+  }
+}

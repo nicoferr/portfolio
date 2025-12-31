@@ -38,5 +38,17 @@
         "tags": [
             "Vite", "NodeJS", "Socket.io", "Tailwind", "Responsive", "Docker"
         ]
+    },{
+        "name": "Un clin d'oeil pour Chiara",
+        "url": "https://unclindoeilpourchiara.fr",
+        "description": "Sensibilisation au rétinoblastome.",
+        "image": {
+            "path": "screenshots/unclindoeilpourchiara.png",
+            "alt": "Un clin d'oeil pour Chiara",
+            "title": "Un clin d'oeil pour Chiara"
+        },
+        "tags": [
+            "PHP", "Symfony 7", "EasyAdmin", "Responsive"
+        ]
     }
 ]
